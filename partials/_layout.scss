@@ -50,8 +50,8 @@
 .butao-contato{
     padding: 14px 28px;
     color: white;
-    background-color: red;
-    border: 0;
+    background-color: black;
+    border: solid 2px white;
     font-size: 18px;
     font-weight: 600;
     margin: 14px 0;
@@ -78,6 +78,10 @@
             font-size: 24px;
             padding: 0 14px;
             width: 100%;
+        }
+        a{
+            padding: 5px 18px;
+            margin-right: 22px;
         }
     }
     

@@ -16,9 +16,10 @@ body{
     background-color: #EBE3DB;
 }
 
-button{
+a{
     font-family: 'Merriweather', sans-serif;
     cursor: pointer;
+    text-decoration: none;
 }
 
 
@@ -26,7 +27,3 @@ img{
     width: 100%;
 }
 
-a{
-    cursor: pointer;
-    text-decoration: none;
-}

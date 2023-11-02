@@ -37,18 +37,9 @@ i {
     transform: translateY(-8px) scale(1.1);
   }
 }
-.header-butao {
-  border: 1px solid white;
-  padding: 8px 24px;
-  border-radius: 4px;
-  color: white;
-  background-color: transparent;
-  transition: background-color 0.8s;
-}
-
-.header-butao:hover {
-  border: 1px solid red;
-  background-color: red;
+.butao-contato:hover {
+  border: 1px solid rgb(164, 158, 158);
+  background-color: rgb(164, 158, 158);
 }
 
 .header-logo {
@@ -74,9 +65,6 @@ i {
     margin-top: 46px;
     justify-content: center;
     margin-right: 6rem;
-  }
-  .header-butao {
-    display: none;
   }
 }
 .logo {
@@ -135,8 +123,8 @@ i {
 .butao-contato {
   padding: 14px 28px;
   color: white;
-  background-color: red;
-  border: 0;
+  background-color: black;
+  border: solid 2px white;
   font-size: 18px;
   font-weight: 600;
   margin: 14px 0;
@@ -163,6 +151,10 @@ i {
     padding: 0 14px;
     width: 100%;
   }
+  .hero a {
+    padding: 5px 18px;
+    margin-right: 22px;
+  }
   p {
     font-size: 14px;
   }
@@ -184,16 +176,12 @@ body {
   background-color: #EBE3DB;
 }
 
-button {
+a {
   font-family: "Merriweather", sans-serif;
   cursor: pointer;
+  text-decoration: none;
 }
 
 img {
   width: 100%;
-}
-
-a {
-  cursor: pointer;
-  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */

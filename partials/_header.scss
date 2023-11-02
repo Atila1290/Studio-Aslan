@@ -35,18 +35,10 @@ i{
 }
 
 
-.header-butao{
-    border: 1px solid white;
-    padding: 8px 24px;
-    border-radius: 4px;
-    color: white;
-    background-color: transparent;
-    transition: background-color 0.8s;
-}
 
-.header-butao:hover{
-    border: 1px solid  red;
-    background-color: red;
+.butao-contato:hover{
+    border: 1px solid rgb(164, 158, 158);
+    background-color: rgb(164, 158, 158);
 }
 
 .header-logo{
@@ -56,8 +48,7 @@ i{
     margin-top: 14px;
 }
 
-@media screen and (max-width:768px){
-    
+@media screen  and (max-width:768px){
     
     .header-content{
         width: 100%;
@@ -69,6 +60,7 @@ i{
             margin-top: 16px;
             font-size: 34px;
         }
+
     }
     
     .header-logo img{
@@ -79,10 +71,10 @@ i{
 
     }
 
-    .header-butao{
-        display: none;
-    }
+
 }
+
+
 
 
 .logo{
@@ -91,4 +83,6 @@ i{
      border-radius: 50%;
      margin-left: 6rem;
 }
+
+
 
