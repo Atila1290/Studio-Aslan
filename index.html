@@ -2,12 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;1,300;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css"/>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>Bela Aslan</title>
 </head>
 <body>
@@ -15,7 +17,7 @@
          <header>
             <nav class="header-content container">
 
-                <div class="header-icones">
+                <div class="header-icones" data-aos="fade-down">
                     <a href="https://instagram.com/studioasllan?igshid=OGQ5ZDc2ODk2ZA==">
                         <i class="fa-brands fa-instagram  fa-2x" ></i>
                     </a>
@@ -26,8 +28,8 @@
 
 
 
-                <div class="header-logo">
-                    <img  class="logo"  src="/imagens/logo.jpeg" alt="logo do estúdio">
+                <div class="header-logo" data-aos="fade-up" data-aos-delay="300">
+                    <img data-aos="flip-up" data-aos-delay="300" data-aos-duration="1500" class="logo"  src="/imagens/logo.jpeg" alt="logo do estúdio">
                 </div>
 
                 
@@ -35,16 +37,16 @@
              </nav>
 
 
-            <main class="hero container">
-                <h1>ESTILO É UM REFLEXO DA SUA ATITUDE E SUA PERSONALIDADE</h1>
+            <main  class="hero container"   data-aos="fade-up" data-aos-delay="300">
+                <h1>Um olhar penetrante, começa pelas sombrancelhas</h1>
                 <p>atendimentos somente por agendamentos</p>
-                <a href="#" class="butao-contato"  target="_blank">
+                <a href="https://api.whatsapp.com/send?phone=5561991357837&text=Quero%20fazer%20um%20agendamento" class="butao-contato"  target="_blank">
                     Informações sobre procedimentos
                 </a>
-                <a href="#" class="butao-contato"  target="_blank">
+                <a href="https://api.whatsapp.com/send?phone=5561991357837&text=Quero%20fazer%20um%20agendamento" class="butao-contato"  target="_blank">
                     Agendar seu horário para Micropigmentação
                 </a>
-                <a href="#" class="butao-contato"  target="_blank">
+                <a href="https://api.whatsapp.com/send?phone=5561991357837&text=Quero%20fazer%20um%20agendamento" class="butao-contato"  target="_blank">
                     Agendar seu horário para designer Micro Labial
                 </a>
             </main>
@@ -66,7 +68,7 @@
 
     </footer>
 
-
+<script src="script.js"></script>
     
 </body>
 </html>
