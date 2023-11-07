@@ -1,4 +1,4 @@
-## Studio Bela Aslan 💋👀
+## Studio Bela Asllan 💋👀
 Site feito para um estudio de micropigmentação de sombrancelhas e designer labial. 
 
 
